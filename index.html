@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Pattern Creator</title>
+</head>
+
+<body>
+  <div class="control-panel">
+    <canvas id="tile-canvas"></canvas>
+    <div class="control-panel-window-bar">
+      <img src="control-panel-window-bar.png" />
+    </div>
+    <div class="control-panel-desktop-pattern">
+      <div class="editor-preview-container">
+        <div class="pattern-editor-container">
+          <div class="editor-canvas-container">
+            <canvas id="editor-canvas"></canvas>
+          </div>
+        </div>
+        <div class="pattern-preview-container">
+          <div class="preview-controls">
+            <button id="prev-btn"><img src="arrow-left.png" /></button>
+            <button id="next-btn"><img src="arrow-left.png" /></button>
+          </div>
+          <div id="preview" class="pattern-preview" title="Click to set background">&nbsp;</div>
+        </div>
+      </div>
+      <div class="desktop-pattern-text-container">
+        <img src="control-panel-desktop-pattern-text.png" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
